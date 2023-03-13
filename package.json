@@ -2,9 +2,12 @@
   "name": "about-me",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://jiaze-chong.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview --port 8080",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
