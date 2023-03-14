@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import ExperienceItem from './components/ExperienceItem.vue'
 </script>
 
 <template>
@@ -15,6 +16,16 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <ExperienceItem :points="['apple', 'bible', 'cat']">
+    <template #title> Title 1 </template>
+
+    <template #takeaway>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil distinctio adipisci ex
+      inventore, illo aliquam? Impedit, enim dicta. Veritatis, accusamus vero. Reiciendis aperiam, a
+      at molestias deserunt dicta nemo corporis.
+    </template>
+  </ExperienceItem>
 </template>
 
 <style scoped>
