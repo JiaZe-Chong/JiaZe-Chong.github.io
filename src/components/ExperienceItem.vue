@@ -42,6 +42,10 @@ const det = ref(false)
   cursor: pointer;
 }
 
+.item {
+  width: 1024px;
+}
+
 h1 {
   color: var(--color-heading);
 }
