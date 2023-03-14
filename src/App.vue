@@ -3,10 +3,14 @@ import ExperienceItem from './components/ExperienceItem.vue'
 </script>
 
 <template>
-  <main>
+  <header>
     <h1>Jia Ze Chong</h1>
-    <p>Junior computer science student at Iowa State University</p>
-    Projects:
+    <p>Junior computer science student</p>
+    <p>at Iowa State University</p>
+  </header>
+
+  <main>
+    <h1 class="pop">Projects:</h1>
     <ExperienceItem :points="['Language: C and C++', 'Library/Technology: nCurses, Makefile']">
       <template #title> Pokemon Game </template>
 
@@ -17,3 +21,9 @@ import ExperienceItem from './components/ExperienceItem.vue'
     </ExperienceItem>
   </main>
 </template>
+
+<style scoped>
+.pop {
+  color: var(--color-accent);
+}
+</style>

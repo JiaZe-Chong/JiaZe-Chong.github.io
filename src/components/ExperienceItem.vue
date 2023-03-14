@@ -13,9 +13,9 @@ const det = ref(false)
 <template>
   <div class="item">
     <div class="title">
-      <h1>
+      <h3>
         <slot name="title"></slot>
-      </h1>
+      </h3>
     </div>
     <div class="details">
       <p>
@@ -42,7 +42,10 @@ const det = ref(false)
   cursor: pointer;
 }
 
-.item {
-  width: auto;
+h1 {
+  color: var(--color-heading);
+}
+p {
+  color: var(--color-text);
 }
 </style>
