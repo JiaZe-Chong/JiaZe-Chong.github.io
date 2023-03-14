@@ -4,6 +4,15 @@ import ExperienceItem from './ExperienceItem.vue'
 
 <template>
     <h1>Projects:</h1>
+
+    <ExperienceItem :points="['Language: Javascript', 'Library/Technology: VueJS']">
+      <template #title> About Me(this) </template>
+
+      <template #introduction>
+        A webpage that introduces myself along with the projects and work experiences I have.
+      </template>
+    </ExperienceItem>
+
     <ExperienceItem :points="['Language: C and C++', 'Library/Technology: nCurses, Makefile']">
       <template #title> Pokemon Game </template>
 
