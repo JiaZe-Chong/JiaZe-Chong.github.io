@@ -19,7 +19,7 @@ const det = ref(false)
     </div>
     <div class="details">
       <p>
-        <slot name="takeaway"></slot>
+        <slot name="introduction"></slot>
       </p>
       <button class="btn" @click="det = !det">Details</button>
       <ul v-if="det">
