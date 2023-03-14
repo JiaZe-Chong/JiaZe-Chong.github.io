@@ -8,7 +8,7 @@ import ExperienceItem from './ExperienceItem.vue'
   <ExperienceItem
     :points="[
       'Language: Javascript',
-      'Library/Technology: VueJS',
+      'Library/Technology: VueJS, Github Pages',
       'Biggest lesson: You can never really learn everything there is to learn about some language/framework/library. You just need to learn the fundamental and keep learning while you are using it.'
     ]"
   >
@@ -37,7 +37,7 @@ import ExperienceItem from './ExperienceItem.vue'
   <ExperienceItem
     :points="[
       'Language: Java',
-      'Library/Technology: Android Studio',
+      'Library/Technology: Android Studio, Springboot, Git',
       'Biggest lesson: Plan ahead, as projects get bigger, it is very important to plan ahead as even the simplest things such as naming variables can be hard due to namespace pollution.'
     ]"
   >
