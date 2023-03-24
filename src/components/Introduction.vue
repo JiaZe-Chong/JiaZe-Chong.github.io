@@ -9,14 +9,10 @@
 </template>
 
 <style scoped>
-h1 {
-  text-align: center;
-}
-p {
-  text-align: center;
-}
-.item {
-  left: 10%;
-  width: 80%;
-}
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
 </style>

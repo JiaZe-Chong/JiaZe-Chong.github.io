@@ -5,20 +5,7 @@ import contact from './components/ContactMe.vue'
 </script>
 
 <template>
-  <div class="main">
-    <header>
-      <intro />
-    </header>
-
-    <main>
-      <projects />
-      <contact />
-    </main>
-  </div>
+    <intro />
+    <projects />
+    <contact />
 </template>
-
-<style scoped>
-.main {
-  width: 80%;
-}
-</style>

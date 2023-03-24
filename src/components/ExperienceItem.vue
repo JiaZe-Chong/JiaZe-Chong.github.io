@@ -1,33 +1,20 @@
 <script setup>
 import { ref } from 'vue'
-defineProps({
-  points: {
-    type: Array,
-    required: true
-  }
-})
-
 const det = ref(false)
 </script>
 
 <template>
   <div class="item">
-    <div class="title">
       <h3>
         <slot name="title"></slot>
       </h3>
-    </div>
-    <div class="details">
       <p>
         <slot name="introduction"></slot>
       </p>
       <button class="btn" @click="det = !det">Details</button>
-      <ul v-show="det">
-        <li v-for="point in points" v-bind:key="point">
-          {{ point }}
-        </li>
-      </ul>
-    </div>
+      <div v-show="det" class = "detail">
+        <slot name = "details"></slot>
+      </div>
   </div>
 </template>
 
@@ -41,11 +28,8 @@ const det = ref(false)
   border-radius: 8px;
   cursor: pointer;
 }
-
-h1 {
-  color: var(--color-heading);
-}
-p {
-  color: var(--color-text);
+.detail {
+  width: 95%;
+  padding-left: 5%;
 }
 </style>
