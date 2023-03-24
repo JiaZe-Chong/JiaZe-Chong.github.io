@@ -1,7 +1,7 @@
 <template>
   <div class="item">
     <h1>Jia Ze Chong</h1>
-    <div class="position">
+    <div class>
       <p>Junior Computer Science Student</p>
       <p>at Iowa State University</p>
     </div>
@@ -14,5 +14,9 @@ h1 {
 }
 p {
   text-align: center;
+}
+.item {
+  left: 10%;
+  width: 80%;
 }
 </style>

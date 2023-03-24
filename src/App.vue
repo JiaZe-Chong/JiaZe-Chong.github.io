@@ -5,12 +5,20 @@ import contact from './components/ContactMe.vue'
 </script>
 
 <template>
-  <header>
-    <intro />
-  </header>
+  <div class="main">
+    <header>
+      <intro />
+    </header>
 
-  <main>
-    <projects />
-    <contact />
-  </main>
+    <main>
+      <projects />
+      <contact />
+    </main>
+  </div>
 </template>
+
+<style scoped>
+.main {
+  width: 80%;
+}
+</style>

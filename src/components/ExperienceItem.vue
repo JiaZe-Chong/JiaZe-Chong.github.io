@@ -22,7 +22,7 @@ const det = ref(false)
         <slot name="introduction"></slot>
       </p>
       <button class="btn" @click="det = !det">Details</button>
-      <ul v-if="det">
+      <ul v-show="det">
         <li v-for="point in points" v-bind:key="point">
           {{ point }}
         </li>
@@ -40,10 +40,6 @@ const det = ref(false)
   margin: 5px;
   border-radius: 8px;
   cursor: pointer;
-}
-
-.item {
-  width: 1024px;
 }
 
 h1 {
