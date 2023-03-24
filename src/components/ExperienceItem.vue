@@ -28,8 +28,9 @@ const det = ref(false)
   border-radius: 8px;
   cursor: pointer;
 }
+
 .detail {
-  width: 95%;
-  padding-left: 5%;
+  width: 90%;
+  left: 5%;
 }
 </style>

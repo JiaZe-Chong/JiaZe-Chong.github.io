@@ -6,3 +6,9 @@
     <p>GitHub: <a href="https://github.com/JiaZe-Chong">GitHub</a></p>
   </div>
 </template>
+
+<style scoped>
+h1{
+  color: hsla(160, 100%, 37%, 1);
+}
+</style>
