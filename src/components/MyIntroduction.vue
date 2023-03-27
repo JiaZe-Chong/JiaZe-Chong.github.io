@@ -9,11 +9,12 @@ const det = ref(false)
     <p>
       I am a computer science student passionate and curious about everything computer science, from
       artificial intelligence and machine learing to low-level embedded software. I am doing
-      extremely well in my academics and would like to put the things I learnt in class to use. I am
-      currently working as a lab research assistant involved in software engineering and problem
-      solving.
+      extremely well academically and would like to put the things I learnt in practice. I am
+      currently working as a lab research assistant involving software engineering and problem
+      solving. I am actively looking for an internship for the Summer of 2023 and a full time job
+      after graduation.
     </p>
-    <p>Contact me if you are interested to know more about me.</p>
+    <p>Feel free to reach out if you are interested to know more about me or what I do.</p>
     <button class="btn" @click="det = !det">Relevant Courses</button>
     <div v-show="det" class="detail">
       <p>-Data Structures</p>

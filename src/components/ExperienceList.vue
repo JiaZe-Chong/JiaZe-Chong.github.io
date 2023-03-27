@@ -14,8 +14,8 @@ import ExperienceItem from './ExperienceItem.vue'
       </template>
 
       <template #details>
-        <p>-Language: C, C++</p>
-        <p>-Library/Technology: Pylon Software Suite</p>
+        <p>-Language: <span>C</span>, <span>C++</span></p>
+        <p>-Library/Technology: <span>Pylon Software Suite</span></p>
         <p>
           -Developed programs written in C++ and “Block Coding” for communication between imaging
           technologies and a robot arm via different voltages.
@@ -45,5 +45,9 @@ import ExperienceItem from './ExperienceItem.vue'
 <style scoped>
 h1 {
   color: hsla(160, 100%, 37%, 1);
+}
+
+span {
+  font-weight: bold;
 }
 </style>

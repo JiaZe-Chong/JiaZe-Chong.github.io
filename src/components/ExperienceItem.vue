@@ -32,5 +32,6 @@ const det = ref(false)
 .detail {
   width: 90%;
   left: 5%;
+  padding-bottom: 30px;
 }
 </style>

@@ -13,11 +13,11 @@ import ExperienceItem from './ExperienceItem.vue'
       </template>
 
       <template #details>
-        <p>-Language: Javascript</p>
-        <p>-Library/Technology: VueJS, Github Pages</p>
-        <p>-Used conditional rendering to only show details on click.</p>
-        <p>-Utilized components to organize code base.</p>
-        <p>-Used slots and props to pass data into components.</p>
+        <p>-Language: <span>Javascript</span></p>
+        <p>-Library/Technology: <span>VueJS</span>, <span>Github Pages</span></p>
+        <p>-Used <span>conditional rendering</span> to only show details on click.</p>
+        <p>-Utilized <span>components</span> to organize code base.</p>
+        <p>-Used <span>slots</span> and <span>props</span> to pass data into components.</p>
         <p>
           -Biggest lesson: You can never really learn everything there is to learn about some
           language/framework/library. You just need to learn the fundamental and keep learning while
@@ -35,15 +35,15 @@ import ExperienceItem from './ExperienceItem.vue'
       </template>
 
       <template #details>
-        <p>-Language: C and C++</p>
-        <p>-Library/Technology: nCurses, Makefile</p>
-        <p>-Used nCurses for terminal manipulation and unbuffered input.</p>
+        <p>-Language: <span>C</span> and <span>C++</span></p>
+        <p>-Library/Technology: <span>nCurses</span>, <span>Makefile</span></p>
+        <p>-Used <span>nCurses</span> for terminal manipulation and unbuffered input.</p>
         <p>-Developed and used a parser to parse data from a CSV file.</p>
         <p>
-          -Utilized object-oriented programming to simplify and streamline the development of the
-          game.
+          -Utilized <span>object-oriented programming</span> to simplify and streamline the
+          development of the game.
         </p>
-        <p>-Utilized header files and Makefile to improve code maintainability.</p>
+        <p>-Utilized header files and <span>Makefile</span> to improve code maintainability.</p>
         <p>
           -Biggest lesson: Technical dept, what seems like an easy solution for current complication
           may lead to a much harder problem that needs to be solve, so always plan ahead.
@@ -59,15 +59,18 @@ import ExperienceItem from './ExperienceItem.vue'
       </template>
 
       <template #details>
-        <p>-Language: Java</p>
-        <p>-Library/Technology: Android Studio, Springboot, Git</p>
+        <p>-Language: <span>Java</span></p>
         <p>
-          -HTTP requests and WebSockets are used for communication between the front-end client and
-          the back-end server.
+          -Library/Technology: <span>Android Studio</span>, <span>Springboot</span>,
+          <span>Git</span>
         </p>
         <p>
-          -Implemented CRUD functions using REST API to manipulate data stored in the back-end
-          server
+          -<span>HTTP requests</span> and <span>WebSockets</span> are used for communication between
+          the front-end client and the back-end server.
+        </p>
+        <p>
+          -Implemented <span>CRUD</span> functions using <span>REST API</span> to manipulate data
+          stored in the back-end server
         </p>
         <p>-Utilized fragments and activities to make UI more friendly</p>
         <p>
@@ -82,5 +85,9 @@ import ExperienceItem from './ExperienceItem.vue'
 <style scoped>
 h1 {
   color: hsla(160, 100%, 37%, 1);
+}
+
+span {
+  font-weight: bold;
 }
 </style>
