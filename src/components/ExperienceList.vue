@@ -14,6 +14,8 @@ import ExperienceItem from './ExperienceItem.vue'
       </template>
 
       <template #details>
+        <p>-Language: C, C++</p>
+        <p>-Library/Technology: Pylon Software Suite</p>
         <p>
           -Developed programs written in C++ and “Block Coding” for communication between imaging
           technologies and a robot arm via different voltages.
@@ -31,8 +33,6 @@ import ExperienceItem from './ExperienceItem.vue'
           -Developed a utility program in C that stitches 40 images into 1 large image and breaks up
           1 large image into 297 smaller images using memory manipulation to help with analysis.
         </p>
-        <p>-Language: C, C++</p>
-        <p>-Library/Technology: Pylon Software Suite</p>
         <p>
           -Biggest lesson: Documentation, how reading documentation is one of the most important
           step before writing any code, and how writing useful documentation helps maintainance
