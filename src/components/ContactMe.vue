@@ -8,7 +8,7 @@
 </template>
 
 <style scoped>
-h1{
+h1 {
   color: hsla(160, 100%, 37%, 1);
 }
 </style>

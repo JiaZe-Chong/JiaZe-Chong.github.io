@@ -5,16 +5,16 @@ const det = ref(false)
 
 <template>
   <div class="item">
-      <h3>
-        <slot name="title"></slot>
-      </h3>
-      <p>
-        <slot name="introduction"></slot>
-      </p>
-      <button class="btn" @click="det = !det">Details</button>
-      <div v-show="det" class = "detail">
-        <slot name = "details"></slot>
-      </div>
+    <h3>
+      <slot name="title"></slot>
+    </h3>
+    <p>
+      <slot name="introduction"></slot>
+    </p>
+    <button class="btn" @click="det = !det">Details</button>
+    <div v-show="det" class="detail">
+      <slot name="details"></slot>
+    </div>
   </div>
 </template>
 

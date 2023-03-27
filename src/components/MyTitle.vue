@@ -1,18 +1,20 @@
 <template>
-  <div class="item">
+  <div>
     <h1>Jia Ze Chong</h1>
-    <div class>
+    <div>
       <p>Junior Computer Science Student</p>
       <p>at Iowa State University</p>
+      <p>Current CGPA: 4.0 / 4.0</p>
+      <p>Expected Graduation: Spring 2024</p>
     </div>
   </div>
 </template>
 
 <style scoped>
-  h1{
-    text-align: center;
-  }
-  p{
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
 </style>
