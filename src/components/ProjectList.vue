@@ -19,7 +19,7 @@ import ExperienceItem from './ExperienceItem.vue'
         <p>-Utilized <span>components</span> to organize code base.</p>
         <p>-Used <span>slots</span> and <span>props</span> to pass data into components.</p>
         <p>
-          -Biggest lesson: You can never really learn everything there is to learn about some
+          -Biggest lesson: There is always something new you could to learn about
           language/framework/library. You just need to learn the fundamental and keep learning while
           you are using it.
         </p>
@@ -45,8 +45,9 @@ import ExperienceItem from './ExperienceItem.vue'
         </p>
         <p>-Utilized header files and <span>Makefile</span> to improve code maintainability.</p>
         <p>
-          -Biggest lesson: Technical dept, what seems like an easy solution for current complication
-          may lead to a much harder problem that needs to be solve, so always plan ahead.
+          -Biggest lesson: Technical debt, what seems like an easy solution for the current
+          complication may lead to a much harder problem that needs to be solved, so always plan
+          ahead.
         </p>
       </template>
     </ExperienceItem>
@@ -74,8 +75,8 @@ import ExperienceItem from './ExperienceItem.vue'
         </p>
         <p>-Utilized fragments and activities to make UI more friendly</p>
         <p>
-          -Biggest lesson: Plan ahead, as projects get bigger, it is very important to plan ahead as
-          even the simplest things such as naming variables can be hard due to namespace pollution
+          -Biggest lesson: It is very important to plan ahead especially for big projects. Even a
+          simple thing such as naming variables can become complicated due to namespace pollution.
         </p>
       </template>
     </ExperienceItem>
