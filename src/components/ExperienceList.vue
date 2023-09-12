@@ -5,6 +5,34 @@ import ExperienceItem from './ExperienceItem.vue'
 <template>
   <div class="item">
     <h1>Work Experience:</h1>
+
+    <ExperienceItem>
+      <template #title> Software Engineering Intern at Ag Leader Technology </template>
+
+      <template #introduction>
+        Developed and maintained code written in C++ and Qt for guidance systems that allow
+        different patterns within a boundary and turn around at the end of the boundary.
+      </template>
+
+      <template #details>
+        <p>-Language: <span>C++</span></p>
+        <p>-Library/Technology: <span>Qt</span></p>
+        <p>
+          -Worked with team members to design, implement, and test innovative solutions to customer
+          needs.
+        </p>
+        <p>-Developed, modified, and maintained code for different features to work together.</p>
+        <p>-Developed and maintained tests that are run using Ctest.</p>
+        <p>-Developed and maintained frontend .ui and .qml files for displays.</p>
+        <p>-Utilized slots and signals in Qt for cross-object communication.</p>
+        <p>
+          -Biggest lesson: Knowing when to ask for help. You don't want to immediately ask for help
+          when you see a problem, but at the same time, you don't want to be stuck on it for an
+          extended period of time.
+        </p>
+      </template>
+    </ExperienceItem>
+
     <ExperienceItem>
       <template #title> Lab Research Assistant at Iowa State University </template>
 
