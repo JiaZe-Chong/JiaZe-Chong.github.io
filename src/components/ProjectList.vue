@@ -80,6 +80,55 @@ import ExperienceItem from './ExperienceItem.vue'
         </p>
       </template>
     </ExperienceItem>
+
+    <ExperienceItem>
+      <template #title> Bloom Filter </template>
+
+      <template #introduction>
+        A bloom filter for strings that allows for insertion and query for membership.
+      </template>
+
+      <template #details>
+        <p>-Language: <span>Java</span></p>
+        <p>
+          -As it is a <span>probabilistic</span> data structure, accuracy is reduced to improve the
+          runtime complexity for membership queries.
+        </p>
+      </template>
+    </ExperienceItem>
+
+    <ExperienceItem>
+      <template #title> MinHash </template>
+
+      <template #introduction>
+        A MinHash for files that quickly estimates the Jaccard Similarity between two files.
+      </template>
+
+      <template #details>
+        <p>-Language: <span>Java</span></p>
+        <p>
+          -As it uses <span>random sampling</span>, accuracy is reduced to improve the runtime
+          complexity of calculating the Jaccard Similarity between two files.
+        </p>
+      </template>
+    </ExperienceItem>
+
+    <ExperienceItem>
+      <template #title> Inverted Index </template>
+
+      <template #introduction>
+        An inverted index for documents that allows fast retrieval of documents containing specific
+        sets of terms.
+      </template>
+
+      <template #details>
+        <p>-Language: <span>Java</span></p>
+        <p>
+          -The runtime complexity of retrieving documents containing the search is improved at the
+          cost of the runtime complexity of adding documents.
+        </p>
+      </template>
+    </ExperienceItem>
   </div>
 </template>
 
