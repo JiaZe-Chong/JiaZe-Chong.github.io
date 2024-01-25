@@ -7,13 +7,13 @@ const det = ref(false)
   <div class="item">
     <h1>Introduction:</h1>
     <p>
-      I am a computer science student passionate and curious about everything computer science, from
-      artificial intelligence and machine learing to low-level embedded software. I am doing
-      extremely well academically and would like to put the things I learnt in practice. I am
-      currently working as a software engineering intern at Ag Leader Technology involving guidance
-      and steering systems. I am actively looking for a full time job after graduation.
+      I am a computer science student who is passionate and curious about everything computer
+      science, from artificial intelligence and machine learning to low-level embedded software. I
+      am doing exceptionally well academically and would like to put the things I learned into
+      practice. I work as a software engineering intern at Ag Leader Technology, involving guidance
+      and steering systems. I am actively looking for a full-time job after graduation.
     </p>
-    <p>Feel free to reach out if you are interested to know more about me or what I do.</p>
+    <p>Please let me know if you'd like to learn more about me or what I do.</p>
     <button class="btn" @click="det = !det">Relevant Courses</button>
     <div v-show="det" class="detail">
       <p>-Data Structures</p>
