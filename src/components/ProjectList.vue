@@ -27,27 +27,26 @@ import ExperienceItem from './ExperienceItem.vue'
     </ExperienceItem>
 
     <ExperienceItem>
-      <template #title> Pokemon Game </template>
+      <template #title> Park or Die </template>
 
       <template #introduction>
-        A Pokemon game with the core gameplay such as random map generation, player movement, random
-        occuring events, and combat system implemented.
+        A web application that allows users to view parking availablity.
       </template>
 
       <template #details>
-        <p>-Language: <span>C</span> and <span>C++</span></p>
-        <p>-Library/Technology: <span>nCurses</span>, <span>Makefile</span></p>
-        <p>-Used <span>nCurses</span> for terminal manipulation and unbuffered input.</p>
-        <p>-Developed and used a parser to parse data from a CSV file.</p>
+        <p>-Language: <span>Python</span></p>
+        <p>-Library/Technology: <span>Django</span>, <span>SQLite</span></p>
         <p>
-          -Utilized <span>object-oriented programming</span> to simplify and streamline the
-          development of the game.
+          -<span>REST APIs</span> are used with multiple endpoints to respond to requests with
+          queried data.
         </p>
-        <p>-Utilized header files and <span>Makefile</span> to improve code maintainability.</p>
         <p>
-          -Biggest lesson: Technical debt, what seems like an easy solution for the current
-          complication may lead to a much harder problem that needs to be solved, so always plan
-          ahead.
+          -<span>Nested serializers</span> are used to effectively transfer complicated data
+          effectively by minimizing API calls needed.
+        </p>
+        <p>
+          -Biggest lesson: Communication is one of the most crucial part of a project. Without
+          effective communication, it is almost impossible to have a functional team.
         </p>
       </template>
     </ExperienceItem>
@@ -56,7 +55,7 @@ import ExperienceItem from './ExperienceItem.vue'
       <template #title> Driveway </template>
 
       <template #introduction>
-        An Android application that allows users rent parking spots.
+        An Android application that allows users to rent parking spots.
       </template>
 
       <template #details>
@@ -77,6 +76,32 @@ import ExperienceItem from './ExperienceItem.vue'
         <p>
           -Biggest lesson: It is very important to plan ahead especially for big projects. Even a
           simple thing such as naming variables can become complicated due to namespace pollution.
+        </p>
+      </template>
+    </ExperienceItem>
+
+    <ExperienceItem>
+      <template #title> Pokemon Game </template>
+
+      <template #introduction>
+        A Pokemon game with the core gameplay such as random map generation, player movement, random
+        occuring events, and combat system implemented.
+      </template>
+
+      <template #details>
+        <p>-Language: <span>C</span> and <span>C++</span></p>
+        <p>-Library/Technology: <span>nCurses</span>, <span>Makefile</span></p>
+        <p>-<span>nCurses</span> is used for terminal manipulation and unbuffered input.</p>
+        <p>-Developed and used a parser to parse data from a CSV file.</p>
+        <p>
+          -Utilized <span>object-oriented programming</span> to simplify and streamline the
+          development of the game.
+        </p>
+        <p>-Utilized header files and <span>Makefile</span> to improve code maintainability.</p>
+        <p>
+          -Biggest lesson: Technical debt, what seems like an easy solution for the current
+          complication may lead to a much harder problem that needs to be solved, so always plan
+          ahead.
         </p>
       </template>
     </ExperienceItem>
