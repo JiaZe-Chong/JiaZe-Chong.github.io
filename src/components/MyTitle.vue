@@ -2,10 +2,9 @@
   <div>
     <h1>Jia Ze Chong</h1>
     <div>
-      <p>Senior Computer Science Student</p>
+      <p>Computer Science Graduate</p>
       <p>at Iowa State University</p>
-      <p>Current CGPA: 4.0 / 4.0</p>
-      <p>Expected Graduation: May 2024</p>
+      <p>Summa Cum Laude</p>
     </div>
   </div>
 </template>
