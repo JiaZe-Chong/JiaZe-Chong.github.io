@@ -7,13 +7,16 @@ const det = ref(false)
   <div class="item">
     <h1>Introduction:</h1>
     <p>
-      I am a computer science graduate who is passionate and curious about everything computer
-      science, from artificial intelligence and machine learning to low-level embedded software. I
-      am doing exceptionally well academically and would like to put the things I learned into
-      practice. I am actively looking for a full-time job.
+      Highly skilled Software Engineer with over 2 years of experience in software development using
+      C++. Proficient in Agile and Scrum methodologies, with a strong ability to learn and adapt to
+      new technologies. Demonstrated competence in both independent and collaborative work
+      environments. Proven track record in developing self-driving software solutions, enhancing
+      user interfaces, and engineering advanced path-planning features. Adept at boosting test
+      coverage and creating innovative guidance systems. Holds a B.S. in Computer Science, Summa Cum
+      Laude, from Iowa State University.
     </p>
     <p>Please let me know if you'd like to learn more about me or what I do.</p>
-    <button class="btn" @click="det = !det">Relevant Courses</button>
+    <button class="btn" @click="det = !det">Courses Taken</button>
     <div v-show="det" class="detail">
       <p>-Data Structures</p>
       <p>-Software Development</p>

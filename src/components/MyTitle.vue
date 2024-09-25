@@ -2,9 +2,7 @@
   <div>
     <h1>Jia Ze Chong</h1>
     <div>
-      <p>Computer Science Graduate</p>
-      <p>at Iowa State University</p>
-      <p>Summa Cum Laude</p>
+      <p>Software Engineer | C++ Developer | Quick Learner | Agile Team Player</p>
     </div>
   </div>
 </template>
